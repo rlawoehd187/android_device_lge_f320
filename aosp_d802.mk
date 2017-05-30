@@ -32,3 +32,8 @@ $(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/d802/device.mk)
+
+# Set build.prop ro.build.fingerprint to stock
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	BUILD_FINGERPRINT=lge/g2_open_com/g2:5.0.2/LRX22G/151061918340a:user/release-keys \
+	PRIVATE_BUILD_DESC="g2_open_com-user 5.0.2 LRX22G 151061918340a release-keys"
