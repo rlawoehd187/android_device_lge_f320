@@ -6,7 +6,7 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/aosp_f320.mk)
+$(call inherit-product, device/lge/f320/aosp_f320.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosip_f320
