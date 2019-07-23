@@ -15,3 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_f320.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_f320-userdebug \
+    aosip_f320-eng
