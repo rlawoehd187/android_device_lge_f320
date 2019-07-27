@@ -1,12 +1,12 @@
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/f320/f320.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := f320
-PRODUCT_NAME := aosp_f320
+PRODUCT_NAME := havoc_f320
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-F320
 PRODUCT_MANUFACTURER := lge
