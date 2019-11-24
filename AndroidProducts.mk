@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_d802.mk
+    $(LOCAL_DIR)/lineage_f320.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_d802-user \
-    lineage_d802-userdebug \
-    lineage_d802-eng
+    lineage_f320-user \
+    lineage_f320-userdebug \
+    lineage_f320-eng

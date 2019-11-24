@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/lge/d802/d802-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/f320/f320-vendor.mk)
 $(call inherit-product, device/lge/g2-common/g2.mk)
 
 ## overlays
@@ -25,4 +25,4 @@ $(call inherit-product, device/lge/g2-common/nfc.mk)
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensor_def_d802.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def_variable.conf
+    $(LOCAL_PATH)/configs/sensor_def_f320.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def_variable.conf

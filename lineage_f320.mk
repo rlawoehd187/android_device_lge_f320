@@ -2,13 +2,13 @@
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/d802/d802.mk)
+$(call inherit-product, device/lge/f320/f320.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := d802
-PRODUCT_NAME := lineage_d802
+PRODUCT_DEVICE := f320
+PRODUCT_NAME := lineage_f320
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG-D802
+PRODUCT_MODEL := LG-f320
 PRODUCT_MANUFACTURER := lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
